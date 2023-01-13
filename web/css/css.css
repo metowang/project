@@ -1,0 +1,178 @@
+/*通用类*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	min-width: 867px;
+
+	margin: 20px auto;
+	font-size: 14px;
+	background: url(../images/bg.jpg) no-repeat fixed;
+	background-size: cover;
+	text-align: justify;
+	color: #000;
+}
+
+h1,
+h2,
+h3 {
+	font-weight: 500;
+}
+
+img {
+	border: none;
+}
+
+a {
+	cursor: pointer;
+	color: #000;
+	text-decoration: none;
+	outline: none;
+}
+
+ul {
+	list-style-type: none;
+	overflow: hidden;
+}
+
+.clearfix:after {
+	content: "";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+
+.main {
+	width: 1200px;
+	margin: 0 auto;
+	background-color: rgba(255, 255, 255, .6);
+}
+
+
+nav {
+	width: 81.5%;
+	height: 70px;
+	line-height: 70px;
+	background-color: #16D;
+	text-align: center;
+	position: fixed;
+	top: 0;
+}
+
+nav ul li {
+	width: 14.2%;
+	float: left;
+}
+
+nav ul li a {
+	font-size: 16px;
+	color: #fff;
+	display: block;
+	height: 100%;
+}
+
+li a:hover {
+	background-color: rgb(19, 107, 239);
+}
+
+.kl1 .left,
+.kl1 .you {
+	width: 50%;
+	float: left;
+}
+
+.kl1 .left img {
+	width: 90%;
+	margin-top: 30px;
+	margin-left: 7%;
+}
+
+.kl1 .you {
+	padding: 0 15px;
+	box-sizing: border-box;
+}
+
+.kl1 .you h3 {
+	text-align: center;
+	font-size: 26px;
+	font-weight: bold;
+	padding-top: 30px;
+}
+
+.tu {
+	padding: 30px 0;
+}
+
+.tu ul li {
+	width: 25%;
+	float: left;
+	padding: 0 10px;
+	box-sizing: border-box;
+	margin-bottom: 30px;
+}
+
+.tu ul li img {
+	width: 100%;
+	height: 220px;
+	display: block;
+	object-fit: cover;
+	border: 1px solid #333;
+}
+
+footer {
+	width: 100%;
+	height: 60px;
+	line-height: 60px;
+	background-color: #1166DD;
+	text-align: center;
+	font-size: 18px;
+	color: #fff;
+}
+
+.guihua {
+	text-align: center;
+}
+
+.guihua h3 {
+	font-size: 30px;
+	padding: 20px 0;
+	font-weight: bold;
+	color: #333;
+}
+
+.guihua-two {
+	padding: 100px;
+	box-sizing: border-box;
+	line-height: 40px;
+	font-size: 22px;
+
+}
+
+.form {
+	width: 400px;
+	padding: 30px 100px;
+	border: 1px solid #1166DD;
+	margin: 50px auto;
+}
+
+.form h3 {
+	font-size: 30px;
+	padding: 30px 0;
+	text-align: center;
+}
+
+.form label {
+	display: block;
+	text-align: left;
+}
+
+.form input {
+	width: 100%;
+	height: 40px;
+	border: none;
+	margin: 30px 0;
+}
